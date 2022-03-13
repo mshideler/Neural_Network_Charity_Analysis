@@ -24,15 +24,15 @@ Attempt 1 had the following changes in an attempt to improve accuracy:
 
 - Decreased the number of features by removing "USE_CASE, "ORGANIZATION" and "STATUS" in addition to "EIN" and "NAME" features.
 
-![Attempt 1 Features]()
+![Attempt 1 Features](https://github.com/mshideler/Neural_Network_Charity_Analysis/blob/main/Resources/Attemp1_columns.png)
 
 - Doubled the number of neurons for each hidden layer.
 
-![Attempt 1 Neurons]()
+![Attempt 1 Neurons](https://github.com/mshideler/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt1_neurons.png)
 
 The result was a slight decrease in accuracy at 72.2%.
 
-![Attempt 1 Accuracy]()
+![Attempt 1 Accuracy](https://github.com/mshideler/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt1_accuracy.png)
 
 #### Attempt 2
 
@@ -40,15 +40,15 @@ Attempt 2 had the following changes in an attempt to improve accuracy:
 
 - Again decreased the number of features by removing "AFFILIATION" and "CLASSIFICATION" in addition to the features listed in Attempt 1.
 
-![Attempt 2 Features]()
+![Attempt 2 Features](https://github.com/mshideler/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt2_columns.png)
 
 - Added a third hidden layer with 10 neurons.
 
-![Attempt 2 Hidden Layers]()
+![Attempt 2 Hidden Layers](https://github.com/mshideler/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt2_hiddenlayers.png)
 
 The result was a significant decrease in accuracy at 58.5% and increase in loss at 66.1%.
 
-![Attempt 2 Accuracy]()
+![Attempt 2 Accuracy](https://github.com/mshideler/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt2_accuracy.png)
 
 #### Attempt 3
 
@@ -56,23 +56,23 @@ Attempt 3 had the following changes in an attempt to improve accuracy:
 
 - Added "AFFILIATION" back in as a feature due to its apparent significance.
 
-![Attempt 3 Features]()
+![Attempt 3 Features](https://github.com/mshideler/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt3_columns.png)
 
 - Doubled the neurons for the first two hidden layers and quadrupled the neurons in the third hidden layer.
 
-![Attempt 3 Hidden Layers]()
+![Attempt 3 Hidden Layers](https://github.com/mshideler/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt3_hiddenlayers.png)
 
 - Changed the activation function for the first hidden layer to TANH.
 
-![Attempt 3 Activation Functions]()
+![Attempt 3 Activation Functions](https://github.com/mshideler/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt3_actfunctions.png)
 
 - Increased the number of epochs from 100 to 150.
 
-![Attempt 3 Epochs]()
+![Attempt 3 Epochs](https://github.com/mshideler/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt3_epochs.png)
 
 The result was an increase back to 72.2%, similar to Attempt 1 but with a little more loss.
 
-![Attempt 3 Accuracy]()
+![Attempt 3 Accuracy](https://github.com/mshideler/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt3_accuracy.png)
 
 None of the above attempts resulted in a minimum 75% accuracy for our model.
 
